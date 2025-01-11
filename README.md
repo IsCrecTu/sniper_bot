@@ -1,7 +1,7 @@
 # sniper_bot
 A sniper bot that watches for new coins launched on RugNinja and buys as quickly as possible. It does not have any sell code, so that will be up to you.
 
-PLEASE NOTE: NO SUPPORT WILL BE GIVEN IN THE USE OF THIS SCRIPT. If you do not know python or what you are doing, then please do not proceed.
+PLEASE NOTE: NO SUPPORT WILL BE GIVEN IN THE USE OF THIS SCRIPT. If you do not know python or what you are doing, then please do not proceed. Also this is not 100% consistent as it attempting to guess what the ASA ID will be before it's actually confirmed on the blockchain.
 
 1. Setup your own Algorand node. See https://nodekit.run/ or https://algorand.co/run-a-node.
 2. Get that node synced.
