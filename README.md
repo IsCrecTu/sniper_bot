@@ -1,5 +1,5 @@
 # sniper_bot
-A sniper bot that watches for new coins launched on RugNinja and buys as quickly as possible. It does not have any sell code, so that will be up to you.
+A sniper bot that watches for new coins launched on RugNinja and buys as quickly as possible. It does not include any code to sell the token (no jeeters here!).
 
 PLEASE NOTE: NO SUPPORT WILL BE GIVEN IN THE USE OF THIS SCRIPT. If you do not know python or what you are doing, then please do not proceed. Also this is not 100% consistent as it attempting to guess what the ASA ID will be before it's actually confirmed on the blockchain.
 
