@@ -1,5 +1,5 @@
 # sniper_bot
-A sniper bot that watches for new coins launched on RugNinja and buys as quick as possible. It does not have any sell code, so that will be up to you.
+A sniper bot that watches for new coins launched on RugNinja and buys as quickly as possible. It does not have any sell code, so that will be up to you.
 
 PLEASE NOTE: NO SUPPORT WILL BE GIVEN IN THE USE OF THIS SCRIPT. If you do not know python or what you are doing, then please do not proceed.
 
