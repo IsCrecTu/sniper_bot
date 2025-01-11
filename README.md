@@ -3,12 +3,14 @@ A sniper bot that watches for new coins launched on RugNinja and buys as quick a
 
 PLEASE NOTE: NO SUPPORT WILL BE GIVEN IN THE USE OF THIS SCRIPT. If you do not know python or what you are doing, then please do not proceed.
 
-1. Setup your own Algorand node. See https://nodekit.run/ or https://algorand.co/run-a-node
-2. Get that node synced
-3. Change the ForceFetchTransactions: false to ForceFetchTransactions: true in the config.json (if you don't have one, rename the config.json.example) for the Algorand node
-4. Create a virtualenv for python (ubuntu command: 'python3 -m venv venv')
-5. Activate it depending on OS (ubuntu command: 'source venv/bin/activate')
-6. Run 'pip install -r requirements.txt' (You can also just run 'pip install py-algorand-sdk python-dotenv')
+1. Setup your own Algorand node. See https://nodekit.run/ or https://algorand.co/run-a-node.
+2. Get that node synced.
+3. Shut the Algorand node down.
+4. Edit the config.json file in the algorand node directory (ubuntu is usually /var/lib/algorand). Change 'ForceFetchTransactions: false' to 'ForceFetchTransactions: true' (if you don't have a config.json, rename the config.json.example).
+6. Start the Algorand node up.
+7. Create a virtualenv for python (ubuntu command: 'python3 -m venv venv')
+8. Activate it depending on OS (ubuntu command: 'source venv/bin/activate')
+9. Run 'pip install -r requirements.txt' (You can also just run 'pip install py-algorand-sdk python-dotenv')
 5. Rename the .env.example file to .env
 5. Open the .env file and update the following:
    
